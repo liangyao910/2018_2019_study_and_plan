@@ -2,12 +2,7 @@
 actor computer
 boundary 2進数
 control 10進数
-entity Foo4
-database Foo5
-collections Foo6
 computer -> 2進数 : 1 and 0
 2進数 -> 10進数 : 重み
 10進数 -> 2進数 : 2で連続割り算の余り,小数なら2で小数0になるまで掛け算
-computer -> Foo5 : To database
-computer -> Foo6 : To collections
 @enduml
